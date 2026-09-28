@@ -39,9 +39,6 @@ public class Main {
     }
 
     public String chet(int x) {
-        if (!(x % 2 == 0)) {
-            x = x - 1;
-        }
         String string = "";
         for (int i = 0; i <= x; i = i + 2) {
             string = string + i + " ";
